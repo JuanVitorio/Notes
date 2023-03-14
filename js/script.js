@@ -31,6 +31,7 @@ function adicionar(titulo_novo, descricao_novo) {
   descricao.innerText = descricao_novo
   nota.appendChild(descricao)
 
+
 }
 
 form.addEventListener('submit', (e) => {

@@ -15,11 +15,13 @@
 
     <h3 id="add_nota_titulo">Adicionar nota</h3>
 
-    <input type="text" class="add_titulo" placeholder="Título">
+    <div class="inputs-part">
+      <input type="text" class="add_titulo" placeholder="Título" maxlength="20">
 
-    <textarea class="add_descricao" cols="30" rows="10" placeholder="Descrição..."></textarea>
+      <textarea class="add_descricao" cols="30" rows="10" placeholder="Descrição..." maxlength="80"></textarea>
 
-    <button id="adicionar">Adicionar</button>
+      <input type="submit" value="Enviar" id="adicionar">
+    </div>
 
   </form>
 
